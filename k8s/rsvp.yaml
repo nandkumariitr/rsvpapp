@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rsvp-app
-        image: nkhare/rsvpapp
+        image: 220213/rsvpapp:f5c98c2d1ec072607d3384b594f9f59664961413
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
